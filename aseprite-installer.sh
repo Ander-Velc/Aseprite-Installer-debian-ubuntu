@@ -10,14 +10,7 @@ purple=$'\033[1;35m'
 cyan=$'\033[1;36m'
 gray=$'\033[1;37m'
 
-confirm_prompt() {
-	read -r -p "$1" confirm
-	[[ "$confirm" != "y" && "$confirm" != "Y" ]] && exit 1
-}
-
 echo -e "${yellow}[+++] Script installer by Ander -> ( https://github.com/ander-velc ) [+++]\n\n${end}"
-
-confirm_prompt "${red}[!] This script must be ran without being root... If you are root, then please do not run this script, you sure you want to continue? ${end} (y/N): "
 
 sudo apt update
 sudo apt install wget
@@ -73,9 +66,3 @@ sudo cmake --install . --prefix=/usr/local
 
 echo -e "${green}[+] Script installed successfully${end}"
 echo -e "${green}[+] Aseprite now avaible on your desktop apps${end}"
-echo -e "${red}[!] Warning: If you do not have an icon-theme as papirus, you won't see the aseprite icon on desktop${end}"
-confirm_prompt "${green}[+] Do you want to install it?${end} (y/N): "
-sudo apt update
-sudo apt install papirus-icon-theme
-
-echo -e "${red}[!] Warning: Now you have to access to tweaks (gnome) or your Appearance and set it as Papirus${end}"
