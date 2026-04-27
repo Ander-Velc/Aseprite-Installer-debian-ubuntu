@@ -11,7 +11,7 @@
 	<strong>Works at 27/04/2026</strong><br>
 </p>
 
-### [!] Warning
+# [!] Warning
 
 You must run this in your terminal without administrator privileges. (Without root privileges)
 
