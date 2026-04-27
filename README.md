@@ -1,5 +1,9 @@
 # Aseprite-Installer-debian-ubuntu
+
+<img width="224" height="225" alt="images" src="https://github.com/user-attachments/assets/af72bfb6-28ac-4048-b213-f5d03e994155" />
+
 A script that installs aseprite for free in debian and ubuntu distributions
+
 
 # Quick install:
 
