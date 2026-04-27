@@ -8,11 +8,30 @@
 <h1 align="center">Aseprite Installer for Ubuntu and Debian</h1>
 
 <p align="center">
-  <strong>Works at 27/04/2026</strong><br>
+	<strong>Works at 27/04/2026</strong><br>
 </p>
+
+### [!] Warning
+
+You must run this in your terminal without administrator privileges. (Without root privileges)
 
 ## Quick install:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Ander-Velc/Aseprite-Installer-debian-ubuntu/refs/heads/main/aseprite-installer.sh | bash
 ```
+
+## Install icon theme
+
+<p>
+	At the end of the install you'll be able to use aseprite correctly but with no icon.
+	<strong>If you want to install papirus theme to get the icon in your desktop run this command:</strong><br>
+</p>
+
+```bash
+sudo apt update
+sudo apt install papirus-icon-theme
+```
+<p>
+	<strong>Now you must go to --> Tweaks app --> Appearance --> Icons --> Select Papirus</strong><br>
+</p>
