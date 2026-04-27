@@ -24,7 +24,7 @@ curl -fsSL https://raw.githubusercontent.com/Ander-Velc/Aseprite-Installer-debia
 ## Install icon theme
 
 <p>
-	At the end of the install you'll be able to use aseprite correctly but with no icon.
+	At the end of the install you won't be able to see the desktop icon, you have to download it separately.
 	<strong>If you want to install papirus theme to get the icon in your desktop run this command:</strong><br>
 </p>
 
