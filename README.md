@@ -1,4 +1,4 @@
-# Aseprite-Installer-debian-ubuntu
+# Aseprite-Installer
 
 <p align="center">
 	<img width="533" height="300" alt="tumblr_static_tumblr_static_44z6demav7cwk0sw4kocs4ss4_focused_v3" src="https://github.com/user-attachments/assets/fabfa5da-e542-4ea3-9a9d-eb71967d3ca9" />
@@ -14,6 +14,7 @@
 # [!] Warning
 
 You must run this in your terminal without administrator privileges. (Without root privileges)
+This tools was tested only in debian based distros.
 
 ## Quick install:
 
